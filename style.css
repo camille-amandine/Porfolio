@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarre {
+    height: 100vh;
+    position: relative;
+
+}
+
+.ligne{
+
+    width: 80%;
+    position: absolute;
+    top: 5%;
+    left: 52%;
+    transform: translate(-50%, 50%);
+    z-index: -1;
+}
+.tulipes{
+    position: absolute;
+    top: 9%;
+    left: 87%;
+    transform: translate(-70%, 50%);
+
+}
+
+.fleur{
+
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-70%, 50%);
+}
+.navebarre-texte{
+
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+}
+
+.dupouy{ 
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 96px;
+    font-weight: 400;
+    text-align: center;
+    background:-webkit-linear-gradient(top, #F28C15 10%, #D26A9A 70%, #aa6f6f9c 20%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    margin-top: 220px;
+
+}
+.camille{ 
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 96px;
+        font-weight: 400;
+        text-align: center;
+        background:-webkit-linear-gradient(top, #F28C15 10%, #D26A9A 70%, #aa6f6f9c 20%);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+        margin-top: 220px;
+
+}
+
+
+#portfolio {
+    font-family: 'Freehand', cursive;
+    font-size: 50px;
+    transition: all 1s;
+    text-align: center;
+    position: relative;
+    transform: scale(1);
+}    
+
+.logowhite {
+    background:-webkit-linear-gradient(top, #D26A9A 30%, #EF8304 70%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.nouveau { color: rgb(255, 255, 255);}
+
+.navbarre{
+
+    justify-content: center;
+}
+
+.profil {
+
+    height: 300px;
+}
+
+.competences{ 
+
+    height: 200px;
+
+}
+
+.bas {
+    background: linear-gradient(118.33deg, #EDC9C9 29.13%, #FFB865 79.77%);
+    min-height: 100vh;
+    padding-top: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.image{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+
+    height: 400px;
+}
